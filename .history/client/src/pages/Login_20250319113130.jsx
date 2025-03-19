@@ -71,7 +71,7 @@ const Login = () => {
     <>
     <Spinner  isloading={load}/>
     <div className="login-container">
-     
+        <img style={{width:"48%",margin:"auto"}} src='NEWLOGO1.png'/>
       <h3>Login</h3>
       <div className="login-form">
         <input
