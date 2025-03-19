@@ -1,11 +1,4 @@
 {
-
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/server/index.js"
-    }
-  ],
     "builds": [
       {
         "src": "client/dist/**",
@@ -18,6 +11,5 @@
         "dest": "/index.html"
       }
     ]
-    
   }
   
