@@ -1,0 +1,16 @@
+{
+  "name": "feesapp",
+  "version": "1.0.0",
+  "description": "Fees Management App",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm i --prefix server && npm i --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

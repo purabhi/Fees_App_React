@@ -1,0 +1,35 @@
+{
+  "name": "feesapp",
+  "version": "1.0.0",
+  "description": "Fees Management App",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run build --prefix client && node server/index.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm i --prefix server && npm i --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+{
+  "name": "feesapp",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000i\u0000l\u0000k\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run build --prefix client && node server/index.js",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm i --prefix server && npm i --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
